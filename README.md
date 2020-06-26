@@ -32,7 +32,11 @@ Research how this is done. But consider how you can automate the editing of this
 #### cat mongod.confi -- from within the etc
 ### sudo nano /etc/mongod.conf
 ### this brings up the nano file editor ,
-### click on the ip and edit 0.0.0.0
+### click (control k) on the ip and edit 0.0.0.0
+### click (control x) do you want to save(y)
+#### then press enter twice
+### 
+
 ### save and restart
 
 cat mongod.conf
